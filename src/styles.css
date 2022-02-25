@@ -1,0 +1,154 @@
+.pp{
+    
+    background-color: rgb(43, 31, 31);
+    
+        height:5%;
+        width:100vw;
+    }
+    .navbar-right
+    {
+        float: right;
+    }
+p{
+    
+    font-size: 22px;
+    
+}
+.content
+{
+    margin-top: 28vw;
+    margin-bottom: 35vw;
+ 
+}
+*
+{
+    margin:0;
+    padding: 0;
+}
+*{
+    font-family: Berlin sans-FB;
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    font-size:1.3vw;
+    
+}
+.nav-link .navbar-brand{
+    font-size:3vw;
+
+}
+#people{
+    font-size: 5vw;
+
+}
+#plo
+{
+    margin:auto;
+}
+.pt-2
+{
+    text-align: center;
+    margin-top: 5vw;
+
+}
+#people
+{
+    margin-top: 2vw;
+}
+.parallax2
+{
+    height:40vw;
+    background-image: url('imgg/coronavirus-4157282.jpeg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    display:flex;
+    align-items: center;
+}
+.conten
+{
+    color:#fbfcfd;
+    position: absolute;
+    top:40%;
+    left:30%; 
+    transform: translate(-50%);
+    z-index: 2;
+}
+.conten h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+#pi
+{
+    margin:auto;
+    padding:auto;
+}
+.bubbles img{
+width: 50px;
+animation: bubble 7s linear infinite;
+}
+.bubbles
+{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+@keyframes bubble 
+{
+0%{
+    transform: translateY(0);
+    opacity:0;
+}    
+50%{
+    
+    opacity:1;
+}    
+70%{
+    
+    opacity:1;
+}    
+100%{
+    transform: translateY(-80vh);
+    opacity:0;
+}    
+}
+.bubbles img:nth-child(1)
+{
+    animation-delay: 2s;
+    width:25px;
+}
+.bubbles img:nth-child(2)
+{
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3)
+{
+    animation-delay: 3s;
+    width:25px;
+}
+.bubbles img:nth-child(4)
+{
+    animation-delay: 4.5s;
+
+}
+.bubbles img:nth-child(5)
+{
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(6)
+{
+    animation-delay: 6s;
+    width: 20px;
+}
+.bubbles img:nth-child(7)
+{
+    animation-delay: 7s;
+    width: 35px;
+}
